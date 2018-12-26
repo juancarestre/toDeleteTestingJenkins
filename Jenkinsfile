@@ -23,6 +23,7 @@ pipeline {
     post {
         always {
             echo 'This will always run'
+            notepad
         }
         success {
             echo 'This will run only if successful'
